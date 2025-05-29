@@ -18,7 +18,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
     super.initState();
 
     if (Platform.isAndroid || Platform.isIOS) {
-      _controller = VideoPlayerController.asset('assets/videos/kirtan.mkv')
+      _controller = VideoPlayerController.asset('assets/videos/mustang.mp4')
         ..initialize().then((_) {
           setState(() {});
           _controller.setLooping(true);
