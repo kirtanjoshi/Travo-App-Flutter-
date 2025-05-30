@@ -1,8 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart' show Scaffold;
 import 'package:get/get.dart';
+import 'package:travo/features/view/auth/otp_screen.dart';
 import 'package:travo/features/view/booking_confirm_screen.dart';
 import 'package:travo/features/view/calender_screen.dart';
+import 'package:travo/features/view/dashboard/dashboard.dart';
 import 'package:travo/features/view/details_screen.dart' show DetailsScreen;
 import 'package:travo/features/view/notification_screen.dart';
 import 'package:travo/features/view/profile_screen.dart';
@@ -37,6 +39,18 @@ class RouteGenerator {
       case '/confirmBookingScreen':
         return GetPageRoute(
           page: () => BookingConfirmationScreen(),
+          transition: Transition.cupertino,
+          transitionDuration: Duration(milliseconds: 400),
+        );
+      case '/dashboard':
+        return GetPageRoute(
+          page: () => Dashboard(),
+          transition: Transition.cupertino,
+          transitionDuration: Duration(milliseconds: 400),
+        );
+      case '/otpScreen':
+        return GetPageRoute(
+          page: () => OTPScreen(),
           transition: Transition.cupertino,
           transitionDuration: Duration(milliseconds: 400),
         );

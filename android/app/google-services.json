@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "370316593446",
+    "project_id": "travo-edb3c",
+    "storage_bucket": "travo-edb3c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370316593446:android:717ba78cdbf0e302ea59e7",
+        "android_client_info": {
+          "package_name": "com.example.travo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370316593446-3drhrar3o828tfgp7el6m73tqte7npcb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoWEfZZdmhmkbNosdwuxen8maF42bGo8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370316593446-3drhrar3o828tfgp7el6m73tqte7npcb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
